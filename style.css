@@ -1,22 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     background-color: #fff7e1;
 }
 
 header {
-    text-align: center; 
+    text-align: center;
 }
 
 nav {
     text-align: center;
-    background-image:url(image/bg2_img.jpg);
+    background-image: url(image/bg2_img.jpg);
     background-position: 100% 100%;
     padding: 5px;
     display: flex;
-    justify-content:right;
+    justify-content: right;
 }
 
 nav a {
@@ -29,8 +30,8 @@ nav a {
     font-size: large;
 }
 
-nav h2{
-    margin-right:47%;
+nav h2 {
+    margin-right: 47%;
     padding-top: 5px;
     text-align: center;
     vertical-align: middle;
@@ -48,7 +49,7 @@ main {
 aside {
     float: left;
     width: 25%;
-    height:280px;
+    height: 280px;
     font-weight: bold;
     font-size: large;
     display: flex;
@@ -74,6 +75,7 @@ aside {
     animation: left_circle 2s linear;
     animation-fill-mode: forwards;
 }
+
 .circle2 {
     border-radius: 50%;
     width: 220px;
@@ -83,8 +85,9 @@ aside {
     border-left-color: transparent;
     animation: right_circle 2s linear;
     animation-fill-mode: forwards;
-    
+
 }
+
 .circle3 {
     border-radius: 50%;
     width: 240px;
@@ -97,6 +100,7 @@ aside {
     animation: left_circle 2s linear;
     animation-fill-mode: forwards;
 }
+
 .circle4 {
     border-radius: 50%;
     width: 230px;
@@ -112,7 +116,7 @@ aside {
 
 .about {
     width: 75%;
-    height:280px;
+    height: 280px;
     float: right;
     padding: 10px 10px;
 }
@@ -126,7 +130,7 @@ aside {
     right: 50px;
 }
 
-.deco{
+.deco {
     float: right;
     margin-right: 150px;
     height: 200px;
@@ -141,18 +145,18 @@ h1 {
     height: 80px;
 }
 
-.about p{
+.about p {
     line-height: normal;
 }
 
-.tools{
+.tools {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
 }
 
 
-.bar{
+.bar {
     margin: 3px;
     width: 8em;
     border-left-style: solid;
@@ -161,7 +165,7 @@ h1 {
     border-radius: 20px;
 }
 
-.bar2{
+.bar2 {
     margin: 3px;
     width: 500px;
     border: solid #cce3de;
@@ -172,19 +176,20 @@ h1 {
     border-radius: 20px;
 }
 
-.bar_mix{
+.bar_mix {
     display: inline-flex;
     color: rgb(68, 68, 68);
 }
 
-.edu, .exp{
-    background-image:url(image/bg2_img.jpg);
+.edu,
+.exp {
+    background-image: url(image/bg2_img.jpg);
     border-radius: 20px;
     background-position: 100% 100%;
     padding: 20px 0px;
 }
 
-.edu_image{
+.edu_image {
     float: left;
     height: 300px;
     width: 437px;
@@ -193,21 +198,21 @@ h1 {
     border-radius: 20px;
 }
 
-.img_set{
+.img_set {
     margin-top: 20px;
 }
 
-.edu_image img{
+.edu_image img {
     height: 250px;
     border-radius: 20px;
 }
 
-.exp_image img{
+.exp_image img {
     height: 300px;
     border-radius: 20px;
 }
 
-.exp_image{
+.exp_image {
     float: right;
     height: 300px;
     padding: 0px 2px;
@@ -215,53 +220,53 @@ h1 {
     border-radius: 20px;
 }
 
-.edu_content{
-   height: 300px;
-   width: 1080px;
-   padding: 10px 10px;
-   margin: 0px 10px;
+.edu_content {
+    height: 300px;
+    width: 1080px;
+    padding: 10px 10px;
+    margin: 0px 10px;
 }
 
-.exp_content{
+.exp_content {
     height: 300px;
     width: 1080px;
     padding: 10px 10px;
     margin: 0px 50px;
 }
 
-.Works{
-    background-image:url(image/bg2_img.jpg);
+.Works {
+    background-image: url(image/bg2_img.jpg);
     border-radius: 20px;
     background-position: 100% 100%;
 }
 
-ol{
+ol {
     padding: 30px;
 }
 
-ol li{
+ol li {
     font-weight: bold;
     line-height: 35px;
 }
 
-ol li ul li{
+ol li ul li {
     font-weight: normal;
 }
 
-.works_img{
+.works_img {
     border-radius: 30px;
     float: right;
     width: 300px;
     margin-right: 50px;
 }
 
-.works_img2{
+.works_img2 {
     border-radius: 50%;
     float: right;
     margin-right: 50px;
 }
 
-.timeline_frame_r{
+.timeline_frame_r {
     padding-top: 370px;
     margin: 0px 5px;
     width: 50px;
@@ -269,14 +274,14 @@ ol li ul li{
     float: right;
 }
 
-.timeline_frame_l{
+.timeline_frame_l {
     float: left;
     padding-top: 250px;
     width: 50px;
     height: 500px;
 }
 
-.timeline{
+.timeline {
     width: 12px;
     height: 290px;
     margin: 0px 26px;
@@ -285,20 +290,20 @@ ol li ul li{
     border-radius: 10px;
 }
 
-.tri{
+.tri {
     width: 15px;
     height: 15px;
     margin: 0px 18px 20px;
-    border: 15px solid ;
+    border: 15px solid;
     border-color: transparent transparent transparent rgb(255, 168, 200);
 }
 
-p{
+p {
     line-height: 35px;
 }
 
 footer {
-    background-color:#cce3de;
+    background-color: #cce3de;
     height: 50px;
     display: grid;
     place-content: center;
@@ -306,51 +311,53 @@ footer {
 }
 
 
-.top{
+.top {
     position: fixed;
     bottom: 30px;
     right: 60px;
 }
 
-#html{
+#html {
     animation: bar1 1s ease;
     animation-fill-mode: forwards;
 }
 
-#css{
+#css {
     animation: bar2 1s ease-in;
     animation-fill-mode: forwards;
 }
 
-#java{
+#java {
     animation: bar3 1s ease-in-out;
     animation-fill-mode: forwards;
 }
 
-#mysql{
+#mysql {
     animation: bar4 1s ease-out;
     animation-fill-mode: forwards;
 }
 
-#tri{
+#tri {
     animation: tri 0.8s ease-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes left_circle {
-    from{
+    from {
         transform: rotate(-45deg);
     }
-    to{
+
+    to {
         transform: rotate(135deg);
     }
 }
 
 @keyframes right_circle {
-    from{
+    from {
         transform: rotate(45deg);
     }
-    to{
+
+    to {
         transform: rotate(225deg);
     }
 }
@@ -359,7 +366,8 @@ footer {
     from {
         border-left-width: 0px;
     }
-    to{
+
+    to {
         border-left-width: 350px;
     }
 }
@@ -368,7 +376,8 @@ footer {
     from {
         border-left-width: 0px;
     }
-    to{
+
+    to {
         border-left-width: 230px;
     }
 }
@@ -377,7 +386,8 @@ footer {
     from {
         border-left-width: 0px;
     }
-    to{
+
+    to {
         border-left-width: 300px;
     }
 }
@@ -386,7 +396,8 @@ footer {
     from {
         border-left-width: 0px;
     }
-    to{
+
+    to {
         border-left-width: 250px;
     }
 }
@@ -395,8 +406,8 @@ footer {
     from {
         transform: translateY(0%) rotate(90deg);
     }
-    to{
+
+    to {
         transform: translateY(50%) rotate(90deg);
     }
 }
-
